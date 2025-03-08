@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # oleh Saftana Fitri
 @st.cache_data
 def load_data():
-    df = pd.read_csv("all_data.csv")
+    df = pd.read_csv("dashboard/all_data.csv")
     df['season'] = df['season'].replace({1: 'Spring', 2: 'Summer', 3: 'Fall', 4: 'Winter'})
     df['yr'] = df['yr'].replace({0: 2011, 1: 2012})
     df['weekday'] = df['weekday'].replace({0: 'Sunday', 1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'})
