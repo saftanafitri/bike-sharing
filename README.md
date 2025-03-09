@@ -23,9 +23,9 @@ Tren harian menunjukkan pola penggunaan lebih tinggi pada hari kerja dibandingka
 
 nb: jalankan di cmd atau terminal
 
-mkdir proyek_analisis_data
+mkdir bike-sharing
 
-cd proyek_analisis_data
+cd bike-sharing
 
 pipenv install
 
